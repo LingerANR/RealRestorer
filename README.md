@@ -16,7 +16,11 @@ Inside the '/backups' folder we will save the backups of the database (SQL File 
 ```
   cd RealRestorer
 ```
-4. Execute the main file
+4. Execute the requeriments file
+```
+  pip install -r requirements.txt
+```
+5. Execute the main file
 ```
   python3 main.py
 ```
